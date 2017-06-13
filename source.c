@@ -102,6 +102,8 @@ struct boardSquare  ptopLeft, ptopMiddle, ptopRight, pmiddleLeft, pmiddle, pmidd
 	// Player 1 determines which of the smaller boards to start on
 	printf("Now Player 1, which of the smaller boards do you want to move onto?");
 	scanf("%d", &move);
+	
+	// Could have used switch statements for below
 	if (move == 1)
 		// move is in the bottomLeft
 		locationNow = 1;
